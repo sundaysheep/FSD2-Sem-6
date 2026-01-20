@@ -4,6 +4,8 @@ import About from './About';
 import Contact from './Contact';
 import Dashboard from './Dashboard';
 import './SinglePageApp.css';
+import { ButtonSmallLink } from './MaterialUIComponents';
+import Button from '@mui/material/Button';
 
 export default function SinglePageApp() {
   return (
@@ -12,10 +14,10 @@ export default function SinglePageApp() {
       {/* <div className='navbar-container'> */}
 
         <nav className='navbar-primary' style={{ padding: "10px", borderBottom: "1px solid #ccc" }}>
-          <Link to="/">Home</Link> |{" "}
-          <Link to="/about">About</Link> |{" "}
-          <Link to="/contact">Contact</Link> |{" "}
-          <Link to="/dashboard">Dashboard</Link>
+          <ButtonSmallLink buttonText="Home" linkTo="/"/>
+          <ButtonSmallLink buttonText="About" linkTo="/about"/>
+          <ButtonSmallLink buttonText="Contact" linkTo="/contact"/>
+          <ButtonSmallLink buttonText="Dashboard" linkTo="/dashboard"/>
         </nav>
 
       {/* </div> */}

@@ -1,16 +1,15 @@
-# React + Vite
+# Aim
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To understand and implement client-side routing in a React application using React Router DOM, enabling seamless navigation between multiple views without full page reloads.
 
-Currently, two official plugins are available:
+# Learning Outcomes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+After completing this practical, students will be able to:
 
-## React Compiler
+Explain the concept of client-side routing and differentiate it from traditional server-side routing in web applications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Configure and use React Router DOM to define routes using components such as BrowserRouter, Routes, and Route.
 
-## Expanding the ESLint configuration
+Implement navigation between components using routing features like Link, NavLink, and dynamic URL parameters.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Develop a multi-page React application structure that improves user experience through faster navigation and modular component design.

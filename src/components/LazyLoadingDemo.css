@@ -1,0 +1,47 @@
+.lazy-demo {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.intro {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  background: #f0f7ff;
+  padding: 10px;
+  border-left: 4px solid #1976d2;
+  border-radius: 4px;
+}
+
+.lazy-component {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fafafa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.graph{
+    padding-bottom: 60px;
+}
+
+.lazy-component h2 {
+  margin-bottom: 10px;
+}
+
+.demo-image {
+  margin-top: 15px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.loading-text {
+  margin-top: 15px;
+  font-style: italic;
+  color: #555;
+}

@@ -4,6 +4,9 @@ import FormControl from '@mui/material/FormControl';
 import InputLabel from '@mui/material/InputLabel';
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';  
+
+import { Typography, Container } from '@mui/material';
+
 import { Routes, Route, Link } from 'react-router-dom';
 import { react,useState } from 'react';
 function ButtonSmallLink({buttonText, linkTo}) {
@@ -12,9 +15,9 @@ function ButtonSmallLink({buttonText, linkTo}) {
   ) 
 }
 
-function ButtonLarge({buttonText}) {
+function ButtonLarge({buttonText, onClick}) {
     return (
-      <Button size="large" variant='outlined'>{buttonText}</Button>
+      <Button size="large" variant='outlined' onClick={onClick}>{buttonText}</Button>
     )
 
 }

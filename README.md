@@ -1,15 +1,13 @@
-# AIM of Experiment
+# AIM of Experiment 5 - FE Optimization using Lazy Loading
 On top of the SPA from the last experiment 
 
-- Create 5 UI design Components
-    - Button
-    - TextField
-    - Select
-    - Rating
-    - Checkbox
+- Implemented 3 types of Lazy Loading :
+    - Page wise loading
+    - Component level loading
+    - Conditional loading
 
 ## Learning Outcomes
 
-    - Learnt how to import and use external UI Libraries like Material UI
-    - Learnt how to customize MUI components
-    - Learnt how to make use of props as per requirement with MUI Components
+    - Learnt concept of lazy loading
+    - Learnt to implement lazy loading for optimization
+    

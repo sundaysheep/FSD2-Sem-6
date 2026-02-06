@@ -4,6 +4,12 @@ import Image from "../assets/Image.jpg";
 import "./LazyLoadingDemo.css";
 
 // Component-Level Lazy Loading (with simulated delay)
+const AttendanceChart1 = lazy(() =>{
+  setTimeout(() => {
+    return import("../components/AttendanceChart");
+  }, 1500);
+})
+
 const AttendanceChart = lazy(() =>
   new Promise((resolve) => {
     setTimeout(() => {

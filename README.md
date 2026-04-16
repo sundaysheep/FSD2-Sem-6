@@ -1,13 +1,13 @@
-# AIM of Experiment 5 - FE Optimization using Lazy Loading
-On top of the SPA from the last experiment 
+README: React Form Lab
 
-- Implemented 3 types of Lazy Loading :
-    - Page wise loading
-    - Component level loading
-    - Conditional loading
+Objective: Build a validated Registration Form using Material UI components.
 
-## Learning Outcomes
+Features:
 
-    - Learnt concept of lazy loading
-    - Learnt to implement lazy loading for optimization
-    
+    Inputs: TextField (Email/Password), RadioGroup (Gender), Checkbox (Consent).
+
+    State: Uses useState to manage inputs and validation errors.
+
+    Validation: Checks for @ in email, 6+ character password, and mandatory checkbox.
+
+    Output: Conditionally displays a Paper summary upon successful submission.

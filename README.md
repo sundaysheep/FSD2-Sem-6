@@ -11,3 +11,7 @@ On top of the SPA from the last experiment
     - Learnt concept of lazy loading
     - Learnt to implement lazy loading for optimization
     
+
+## Netlify Link
+
+    - 23bcc70036-exp5.netlify.app

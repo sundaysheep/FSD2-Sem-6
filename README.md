@@ -11,3 +11,5 @@ Features:
     Validation: Checks for @ in email, 6+ character password, and mandatory checkbox.
 
     Output: Conditionally displays a Paper summary upon successful submission.
+
+## Netlify -> https://fsd-exp6.netlify.app/
